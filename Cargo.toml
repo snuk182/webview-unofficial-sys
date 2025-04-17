@@ -1,0 +1,15 @@
+[package]
+name = "webview-unofficial-sys"
+version = "0.0.1"
+authors = ["Serhii Plyhun <snuk188@gmail.com>"]
+edition = "2018"
+license = "MIT or Apache-2.0"
+description = "Unofficial Webview-org raw ffi bindings"
+
+[build-dependencies]
+cc = "1"
+pkg-config = "0.3"
+
+[lib]
+name = "webview-unofficial-sys"
+path = "src/lib.rs"
