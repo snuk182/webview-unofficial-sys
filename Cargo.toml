@@ -7,9 +7,6 @@ license = "MIT or Apache-2.0"
 description = "Unofficial Webview-org raw ffi bindings"
 
 [build-dependencies]
-cc = "1"
+cmake = "^0.1"
 pkg-config = "0.3"
 
-[lib]
-name = "webview-unofficial-sys"
-path = "src/lib.rs"
